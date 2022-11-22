@@ -32,5 +32,14 @@ travel_log={
 }
 
 travel_log1={
-    "France":{"Cities_Visited":["Paris","Liitle","Dijon"]},
+    "France":{"Cities_Visited":["Paris","Liitle","Dijon"],"total_visits":12},
+    "Germany":["Berlin","Hamburg"]
 }
+
+#Nesting a dict in a list
+
+travel_log=[
+    {"Country":"France","Cities_Visited":["Paris","Liitle","Dijon"],"total_visits":12},
+     
+    {"Country":"Germany","Cities_visited":["Berlin","Hamburg"]}
+]

@@ -1,0 +1,3 @@
+#Create a virtual auction environment in which every bidder will remain 
+unknown of the bidding of other people and they will get to know only 
+when the auction winner will be announced
